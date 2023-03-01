@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/iconinbox"
+            android:title="Inbox"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/icontravel"
+            android:title="Travel"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/iconperson"
+            android:title="Ericka Counts"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/icongroup"
+            android:title="Contact Group"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/icondrafts"
+                android:title="Drafts"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/iconarchive"
+                android:title="Archive"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/iconsent"
+                android:title="Sent"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/iconsnconzed"
+                android:title="Snconzed"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/icondeleted"
+                android:title="Deleted"/>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/iconjunk"
+                android:title="Junk"/>
+        </menu>
+    </item>
+</menu>
